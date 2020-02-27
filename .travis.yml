@@ -1,0 +1,8 @@
+language: julia
+
+services:
+  - docker
+
+script:
+  - docker build -t jtest .
+  - docker run --rm jtest

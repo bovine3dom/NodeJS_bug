@@ -3,6 +3,6 @@ COPY . /julia/
 
 WORKDIR julia
 
-RUN julia --project broke.jl; exit 0
+RUN julia --project broke.jl
 
-RUN julia --project works.jl
+CMD julia --project works.jl

@@ -1,7 +1,7 @@
 #!/bin/env julia
 
 import Pkg
-Pkg.resolve()
+Pkg.instantiate()
 
 using NodeJS
 println(run(`$(nodejs_cmd()) -v`))

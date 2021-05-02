@@ -1,4 +1,4 @@
-FROM julia:1.3
+FROM julia:1.6
 COPY . /julia/
 
 WORKDIR julia

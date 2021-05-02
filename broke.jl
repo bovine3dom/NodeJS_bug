@@ -1,7 +1,6 @@
 #!/bin/env julia
 
 import Pkg
-Pkg.instantiate()
 Pkg.resolve()
 
 using NodeJS
